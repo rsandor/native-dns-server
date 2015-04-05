@@ -1,0 +1,36 @@
+{
+  "name": "native-dns-server",
+  "version": "0.0.1",
+  "description": "Fully featured UDP DNS Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint index.js lib/ && lab -v -c test/*"
+  },
+  "jshintConfig": {
+    "node": true,
+    "curly": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rsandor/native-dns-server.git"
+  },
+  "keywords": [
+    "dns",
+    "server",
+    "native-dns"
+  ],
+  "author": "Ryan Sandor Richards <sandor.richards@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rsandor/native-dns-server/issues"
+  },
+  "homepage": "https://github.com/rsandor/native-dns-server",
+  "devDependencies": {
+    "code": "^1.4.0",
+    "jshint": "^2.6.3",
+    "lab": "^5.5.1"
+  },
+  "dependencies": {
+    "native-dns": "^0.7.0"
+  }
+}
